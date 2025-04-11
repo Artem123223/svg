@@ -1,3 +1,61 @@
 svg {
+    transition: all 3s ease;
     border: 3px dashed #ccc;
+    animation: svguha 3s infinite ;
+}
+.dereva {
+    transition: all 3s ease;
+    animation: dareva 3s infinite;
+}
+.sun {
+    transition: all 3s ease;
+    animation: sunny 3s infinite;
+}
+.sun > circle {
+    transition: all 3s ease;
+    animation: circles 3s infinite;
+}
+.black > circle {
+    transition: all 3s ease;
+    animation: blacks 3s infinite;
+}
+@keyframes circles {
+    0% {
+        fill: #fcad3a;
+    }
+    100% {
+        fill: #ccc;
+    }
+}
+@keyframes sunny {
+    0% {
+        transform: translate(0,0);
+    }
+    100% {
+        transform: translate(60%,0);
+    }
+}
+@keyframes svguha {
+    0% {
+        background-color: #fff;
+    }
+    100% {
+        background-color: rgb(31, 31, 31);
+    }
+}
+@keyframes blacks{
+    0% {
+        fill: #fff;
+    }
+    100% {
+        fill: #1f1f1f;
+    }
+}
+@keyframes dareva {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-30%, 0);
+    }
 }
