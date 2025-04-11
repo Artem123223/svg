@@ -1,23 +1,23 @@
 svg {
     transition: all 3s ease;
     border: 3px dashed #ccc;
-    animation: svguha 3s infinite ;
+    animation: svguha 3s infinite alternate;
 }
 .dereva {
     transition: all 3s ease;
-    animation: dareva 3s infinite;
+    animation: dareva 3s infinite alternate;
 }
 .sun {
     transition: all 3s ease;
-    animation: sunny 3s infinite;
+    animation: sunny 3s infinite alternate;
 }
 .sun > circle {
     transition: all 3s ease;
-    animation: circles 3s infinite;
+    animation: circles 3s infinite alternate;
 }
 .black > circle {
     transition: all 3s ease;
-    animation: blacks 3s infinite;
+    animation: blacks 3s infinite alternate;
 }
 @keyframes circles {
     0% {
